@@ -1,0 +1,17 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	@apply transition ease-out;
+}
+
+body {
+	@apply text-gray-300 bg-brand;
+}
+
+.fade-effect {
+	@apply absolute top-0 w-1/12 h-10 from-transparent to-brand;
+
+}
